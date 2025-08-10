@@ -36,7 +36,7 @@ VITE_API_URL=https://event-book-backend.onrender.com
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+The application will be available at `https://event-book-backend.onrender.comst:5173`
 
 ## Troubleshooting
 
@@ -52,7 +52,7 @@ If you see "Failed to load events. Please try again later.":
 ### Common Issues
 
 1. **"process is not defined"**: This has been fixed by updating environment variable handling
-2. **CORS Errors**: Ensure backend CORS_ORIGIN is set to `http://localhost:5173`
+2. **CORS Errors**: Ensure backend CORS_ORIGIN is set to `https://event-book-backend.onrender.comst:5173`
 3. **Authentication Issues**: Check if the backend JWT_SECRET is properly configured
 
 ### Backend Requirements
