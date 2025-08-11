@@ -63,11 +63,11 @@ const SignupModal = ({ isOpen, onClose, onSwitchToLogin }) => {
       newErrors.firstName = 'First name must be between 2 and 50 characters';
     }
     
-    if (!formData.lastName.trim()) {
-      newErrors.lastName = 'Last name is required';
-    } else if (formData.lastName.trim().length < 2 || formData.lastName.trim().length > 50) {
-      newErrors.lastName = 'Last name must be between 2 and 50 characters';
-    }
+    // if (!formData.lastName.trim()) {
+    //   newErrors.lastName = 'Last name is required';
+    // } else if (formData.lastName.trim().length < 2 || formData.lastName.trim().length > 50) {
+    //   newErrors.lastName = 'Last name must be between 2 and 50 characters';
+    // }
     
     if (!formData.email) {
       newErrors.email = 'Email is required';
